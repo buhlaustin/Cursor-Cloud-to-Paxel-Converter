@@ -208,4 +208,4 @@ Full mapping table: [Reference](docs/reference.md#tool-name-mapping).
 
 ## License
 
-MIT © 2026 Salestrics
+MIT © 2026 Austin Buhl
