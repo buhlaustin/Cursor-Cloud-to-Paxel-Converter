@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # Refresh cloud-agent-transcripts-export.zip in a project repo and commit it.
 #
-# Shell workflow for repos that keep the export zip in git (e.g. Austin Buhl OS):
-#   ./refresh-repo-export.sh /path/to/Austin-Buhl-OS
-#   ./refresh-repo-export.sh /path/to/Austin-Buhl-OS --push
+# Shell workflow for repos that keep the export zip in git (e.g. Austin Buhl):
+#   ./refresh-repo-export.sh /path/to/Austin-Buhl
+#   ./refresh-repo-export.sh /path/to/Austin-Buhl --push
 #
 # If the export directory is missing but the zip exists, the zip is extracted first.
 set -Eeuo pipefail
