@@ -44,7 +44,7 @@ flowchart LR
 ### 1. Install
 
 ```bash
-git clone https://github.com/Salestrics/Cursor-Cloud-to-Paxel-Converter.git
+git clone https://github.com/buhlaustin/Cursor-Cloud-to-Paxel-Converter.git
 cd Cursor-Cloud-to-Paxel-Converter
 chmod +x automate-bridge.sh paxel-upload-with-cloud-agents.sh
 ```
@@ -92,12 +92,12 @@ Full MCP export instructions: [Exporting transcripts](docs/exporting-transcripts
 
 ### 4. Keep the export zip updated in your repo (shell)
 
-For repos that track `cloud-agent-transcripts-export.zip` in git (e.g. SalestricsOS):
+For repos that track `cloud-agent-transcripts-export.zip` in git (e.g. Austin Buhl OS):
 
 ```bash
-# One-time setup in SalestricsOS
-git clone https://github.com/Salestrics/SalestricsOS.git
-cd SalestricsOS
+# One-time setup in Austin Buhl OS
+git clone https://github.com/buhlaustin/Austin-Buhl-OS.git
+cd Austin-Buhl-OS
 # place or unzip your export, then:
 
 # Refresh zip + commit (and optionally push)
@@ -111,7 +111,7 @@ cd SalestricsOS
 After a Cursor Agent pulls new MCP transcripts, re-run with sync enabled to merge new agents, refresh the zip, and commit:
 
 ```bash
-./automate-bridge.sh /path/to/SalestricsOS --zip --commit-export --push-export
+./automate-bridge.sh /path/to/Austin-Buhl-OS --zip --commit-export --push-export
 ```
 
 ## Suggested Cursor prompts

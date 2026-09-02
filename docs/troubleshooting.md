@@ -59,7 +59,7 @@ A transcript or index file is not valid JSON.
 
 Paxel's `upload.sh` has changed and no longer matches the expected text.
 
-**Fix:** This is a compatibility break. Open an issue on the [GitHub repo](https://github.com/Salestrics/Cursor-Cloud-to-Paxel-Converter) with the Paxel upload script version/date. As a workaround, run manual conversion only and inspect whether a newer converter release is available.
+**Fix:** This is a compatibility break. Open an issue on the [GitHub repo](https://github.com/buhlaustin/Cursor-Cloud-to-Paxel-Converter) with the Paxel upload script version/date. As a workaround, run manual conversion only and inspect whether a newer converter release is available.
 
 ### Docker not running
 
@@ -153,4 +153,4 @@ Each conversion **clears** the staging directory. Re-export and re-run the wrapp
      --workspace /path/to/project
    ```
 
-3. Open an issue at [github.com/Salestrics/Cursor-Cloud-to-Paxel-Converter](https://github.com/Salestrics/Cursor-Cloud-to-Paxel-Converter/issues) with the error message and steps to reproduce
+3. Open an issue at [github.com/buhlaustin/Cursor-Cloud-to-Paxel-Converter](https://github.com/buhlaustin/Cursor-Cloud-to-Paxel-Converter/issues) with the error message and steps to reproduce
