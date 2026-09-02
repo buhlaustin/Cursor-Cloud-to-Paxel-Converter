@@ -22,7 +22,7 @@ Optional:
 ## Install
 
 ```bash
-git clone https://github.com/Salestrics/Cursor-Cloud-to-Paxel-Converter.git
+git clone https://github.com/buhlaustin/Cursor-Cloud-to-Paxel-Converter.git
 cd Cursor-Cloud-to-Paxel-Converter
 chmod +x automate-bridge.sh paxel-upload-with-cloud-agents.sh
 ```
